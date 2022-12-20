@@ -41,7 +41,7 @@ export class AuthService {
   }
   async login(dto: LoginDto) {
     try {
-      const user = await this.prisma.user.findUniqueOrThrow({
+      const user = await this.prisma.user.findUnique({
         where: {
           email: dto.email,
         },
