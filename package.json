@@ -1,10 +1,10 @@
 {
   "name": "learningapp",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "A Bookmark application with Nest js and postgresql",
+  "author": "Yash",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
